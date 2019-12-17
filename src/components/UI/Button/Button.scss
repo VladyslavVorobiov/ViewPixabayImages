@@ -1,0 +1,37 @@
+.Button{
+	padding: 1vh 1vw;
+	border-radius: 1vw;
+	background: #00CED1;
+	color: #fff;
+	margin: 1vh 0.5vh;
+	font-size: 1em;
+
+	&:focus {
+		outline: none;
+	}
+
+	&:disabled{
+		background: #ccc;
+		color: #000;
+		cursor: not-allowed;
+	}
+}
+
+.tag{
+	padding: 0.5vh 0.5vw;
+}
+.save{
+	background: #90EE90;
+	color: #2F4F4F;
+	padding: 0.5vh 0.5vw;
+}
+.delete{
+	background: #A9A9A9;
+	color: #2F4F4F;
+	padding: 0.5vh 0.5vw;
+}
+.sort{
+	background: #FFE4C4;
+	color: #000;
+	padding: 0.5vh 0.5vw;
+}

@@ -1,0 +1,75 @@
+$colorLike: #89A2AB;
+
+.Likes {
+  border: 2px solid $colorLike;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 1vh;
+  margin: 1vh 0;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5vh;
+  color: $colorLike;
+  transition: all ease 0.4s;
+
+  span {
+    margin-left: 0.5rem;
+  }
+
+  .fa,
+  span {
+    transition: all ease 0.4s;
+  }
+
+  &:focus {
+    background-color: transparent;
+
+    .fa,
+    span {
+      color: #000;
+    }
+  }
+
+  &:hover {
+    border-color: red;
+    background-color: transparent;
+
+    .fa,
+    span {
+      color: red;
+    }
+  }
+}
+
+.liked {
+  background-color: red;
+  border-color: red;
+
+  .fa,
+  span {
+    color: white;
+
+  }
+
+  &:focus {
+    background-color: red;
+
+    .fa,
+    span {
+      color: white;
+    }
+  }
+
+  &:hover {
+    background-color: red;
+    border-color: red;
+
+    .fa,
+    span {
+      color: white;
+    }
+  }
+}
+

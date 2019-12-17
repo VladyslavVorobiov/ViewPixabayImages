@@ -1,0 +1,15 @@
+$colorBorder: #ccc;
+
+.Card{
+	border: 1px solid $colorBorder;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 0 0.5vh 0.8vh 0 rgba(0, 0, 0, 0.15);
+	padding: .5vh .5vw;
+
+	&:hover{
+		box-shadow: 0 0.5vh 2vh 0 rgba(0,0,0, 0.28);
+	}
+}

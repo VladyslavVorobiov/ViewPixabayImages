@@ -1,0 +1,78 @@
+
+
+$colorComment: #89A2AB;
+$colorOver: #808080;
+
+.Comments {
+  border: 2px solid $colorComment;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 1vh;
+  margin: 1vh 0;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5vh;
+  color: $colorComment;
+  transition: all ease 0.4s;
+
+  span {
+    margin-left: 0.5rem;
+  }
+
+  .far,
+  span {
+    transition: all ease 0.4s;
+  }
+
+  &:focus {
+    background-color: transparent;
+
+    .far,
+    span {
+      color: #000;
+    }
+  }
+
+  &:hover {
+    border-color: $colorOver;
+    background-color: transparent;
+
+    .far,
+    span {
+      color: $colorOver;
+    }
+  }
+}
+
+.liked {
+  background-color: $colorOver;
+  border-color: $colorOver;
+
+  .far,
+  span {
+    color: white;
+
+  }
+
+  &:focus {
+    background-color: $colorOver;
+
+    .far,
+    span {
+      color: white;
+    }
+  }
+
+  &:hover {
+    background-color: $colorOver;
+    border-color: $colorOver;
+
+    .far,
+    span {
+      color: white;
+    }
+  }
+}
+
