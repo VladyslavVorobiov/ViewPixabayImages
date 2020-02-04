@@ -25,7 +25,7 @@ class CardList extends React.Component{
 	componentDidMount(){
 
 		if(!this.props.isDataRecieved){
-			this.props.getDataFromPixabay('https://pixabay.com/api/?key=14528338-38e504fd79dd6aa7d0ecaed2c&q=space&image_type=all&per_page=50');
+			this.props.getDataFromPixabay('https://pixabay.com/api/?key=<key>=space&image_type=all&per_page=50');
 		}
 		
 		
