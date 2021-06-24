@@ -4,7 +4,7 @@ See my work here https://react-quiz-cec67.firebaseapp.com/
 
 Basically Form Schema is a top level that contains forms. Here is example json for it:
 
-```json
+```js
 {
   forms: [
      {
