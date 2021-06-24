@@ -6,9 +6,9 @@ Basically Form Schema is a top level that contains forms. Here is example json f
 
 ```json
 {
-  'forms': [
+  forms: [
      {
-       'layout': 'layout1',
+       layout: 'layout1',
        'id': 'demo_form_builder2-form1',
        'headline': 'Layout One Headline',
        'sections': [
