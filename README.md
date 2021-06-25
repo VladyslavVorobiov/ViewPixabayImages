@@ -10,7 +10,7 @@ Schema is special configuration, based on which form will be generated.
 # How to get started with dynamic form
 
 At first you should import TpgDynamicFormModule from '@tpgroup/tpg-dynamic-form' in your specific module.
-Then in component's template use <tpg-form-builder></tpg-form-builder> tag and provide value in [schema] input. Please note that this value has Array<Form> type. 
+Then in component's template use \<tpg-form-builder\>\</tpg-form-builder\> tag and provide value in [schema] input. Please note that this value has Array\<Form\> type. 
 
 Basically Form Schema is a top level that contains forms. Here is a simple example for it:
 
@@ -87,7 +87,7 @@ Let's have a look inside this structure.
 ## Schema
 Schema consists from:
 
-templateSelector: FormTemplateSelector - is global selector for forms templates
+templateSelector: FormTemplateSelector - is global selector for forms templates \n
 forms: Form[] - contains array of forms that will be generated. Each form is placed one below the other
 
 ## Form
