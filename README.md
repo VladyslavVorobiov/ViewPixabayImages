@@ -87,7 +87,7 @@ Let's have a look inside this structure.
 ## Schema
 Schema consists from:
 
-templateSelector: FormTemplateSelector - is global selector for forms templates \n
+templateSelector: FormTemplateSelector - is global selector for forms templates  
 forms: Form[] - contains array of forms that will be generated. Each form is placed one below the other
 
 ## Form
